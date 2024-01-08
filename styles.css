@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.team-section {
+    margin: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    margin: 0.1px;
+}
+
+.team-member img {
+    max-width: 50%;
+    border-radius: 30%;
+}
+
+@media screen and (max-width: 600px) {
+    .team-member {
+        flex: 0 0 10%;
+    }
+}
